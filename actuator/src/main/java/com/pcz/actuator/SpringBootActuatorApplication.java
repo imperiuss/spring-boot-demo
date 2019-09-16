@@ -1,4 +1,4 @@
-package com.pcz;
+package com.pcz.actuator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author picongzhi
  */
 @SpringBootApplication
-public class SpringBootPropertiesApplication {
+public class SpringBootActuatorApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootPropertiesApplication.class, args);
+        SpringApplication.run(SpringBootActuatorApplication.class, args);
     }
 }

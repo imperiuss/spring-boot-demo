@@ -1,4 +1,4 @@
-package com.pcz;
+package com.pcz.hello;
 
 import cn.hutool.core.util.StrUtil;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package com.pcz;
+package com.pcz.properties;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

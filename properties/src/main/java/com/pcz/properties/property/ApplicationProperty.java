@@ -1,4 +1,4 @@
-package com.pcz.property;
+package com.pcz.properties.property;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

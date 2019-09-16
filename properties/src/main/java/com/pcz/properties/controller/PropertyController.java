@@ -1,8 +1,8 @@
-package com.pcz.controller;
+package com.pcz.properties.controller;
 
 import cn.hutool.core.lang.Dict;
-import com.pcz.property.ApplicationProperty;
-import com.pcz.property.DeveloperProperty;
+import com.pcz.properties.property.ApplicationProperty;
+import com.pcz.properties.property.DeveloperProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
