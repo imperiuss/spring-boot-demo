@@ -17,6 +17,7 @@
         <module>log-aop</module>
         <module>exception-handler</module>
         <module>template-freemarker</module>
+        <module>template-thymeleaf</module>
     </modules>
 
     <name>spring-boot-demo</name>
