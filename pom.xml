@@ -12,6 +12,7 @@
         <module>hello-world</module>
         <module>properties</module>
         <module>actuator</module>
+        <module>admin</module>
     </modules>
 
     <name>spring-boot-demo</name>
