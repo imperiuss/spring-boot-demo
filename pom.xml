@@ -15,6 +15,7 @@
         <module>admin</module>
         <module>logback</module>
         <module>log-aop</module>
+        <module>exception-handler</module>
     </modules>
 
     <name>spring-boot-demo</name>
