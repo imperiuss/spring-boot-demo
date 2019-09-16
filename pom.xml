@@ -16,6 +16,7 @@
         <module>logback</module>
         <module>log-aop</module>
         <module>exception-handler</module>
+        <module>template-freemarker</module>
     </modules>
 
     <name>spring-boot-demo</name>
