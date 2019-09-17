@@ -19,6 +19,7 @@
         <module>template-freemarker</module>
         <module>template-thymeleaf</module>
         <module>template-beetl</module>
+        <module>template-enjoy</module>
     </modules>
 
     <name>spring-boot-demo</name>
