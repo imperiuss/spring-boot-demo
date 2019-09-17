@@ -18,6 +18,7 @@
         <module>exception-handler</module>
         <module>template-freemarker</module>
         <module>template-thymeleaf</module>
+        <module>template-beetl</module>
     </modules>
 
     <name>spring-boot-demo</name>
