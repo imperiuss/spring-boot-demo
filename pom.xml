@@ -20,7 +20,7 @@
         <module>template-thymeleaf</module>
         <module>template-beetl</module>
         <module>template-enjoy</module>
-        <module>orm-jdbc</module>
+        <module>orm-jdbc-template</module>
     </modules>
 
     <name>spring-boot-demo</name>

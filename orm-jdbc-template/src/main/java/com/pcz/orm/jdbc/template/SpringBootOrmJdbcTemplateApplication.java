@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author picongzhi
  */
 @SpringBootApplication
-public class SpringBootOrmJdbcApplication {
+public class SpringBootOrmJdbcTemplateApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootOrmJdbcApplication.class, args);
+        SpringApplication.run(SpringBootOrmJdbcTemplateApplication.class, args);
     }
 }
