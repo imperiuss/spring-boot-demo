@@ -22,6 +22,7 @@
         <module>template-enjoy</module>
         <module>orm-jdbc-template</module>
         <module>orm-jpa</module>
+        <module>orm-mybatis</module>
     </modules>
 
     <name>spring-boot-demo</name>
