@@ -23,6 +23,7 @@
         <module>orm-jdbc-template</module>
         <module>orm-jpa</module>
         <module>orm-mybatis</module>
+        <module>orm-mybatis-mapper-page</module>
     </modules>
 
     <name>spring-boot-demo</name>
