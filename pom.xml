@@ -24,6 +24,7 @@
         <module>orm-jpa</module>
         <module>orm-mybatis</module>
         <module>orm-mybatis-mapper-page</module>
+        <module>orm-mybatis-plus</module>
     </modules>
 
     <name>spring-boot-demo</name>
