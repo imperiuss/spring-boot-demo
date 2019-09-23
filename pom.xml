@@ -27,6 +27,7 @@
         <module>orm-mybatis-plus</module>
         <module>orm-beetlsql</module>
         <module>upload</module>
+        <module>cache-redis</module>
     </modules>
 
     <name>spring-boot-demo</name>
