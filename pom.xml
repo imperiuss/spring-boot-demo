@@ -26,6 +26,7 @@
         <module>orm-mybatis-mapper-page</module>
         <module>orm-mybatis-plus</module>
         <module>orm-beetlsql</module>
+        <module>upload</module>
     </modules>
 
     <name>spring-boot-demo</name>
