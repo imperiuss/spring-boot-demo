@@ -28,6 +28,7 @@
         <module>orm-beetlsql</module>
         <module>upload</module>
         <module>cache-redis</module>
+        <module>cache-ehcache</module>
     </modules>
 
     <name>spring-boot-demo</name>
