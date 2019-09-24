@@ -30,6 +30,7 @@
         <module>cache-redis</module>
         <module>cache-ehcache</module>
         <module>email</module>
+        <module>task</module>
     </modules>
 
     <name>spring-boot-demo</name>
