@@ -29,6 +29,7 @@
         <module>upload</module>
         <module>cache-redis</module>
         <module>cache-ehcache</module>
+        <module>email</module>
     </modules>
 
     <name>spring-boot-demo</name>
