@@ -32,6 +32,7 @@
         <module>email</module>
         <module>task</module>
         <module>task-quartz</module>
+        <module>task-xxl-job</module>
     </modules>
 
     <name>spring-boot-demo</name>
