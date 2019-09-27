@@ -33,6 +33,8 @@
         <module>task</module>
         <module>task-quartz</module>
         <module>task-xxl-job</module>
+        <module>swagger</module>
+        <module>swagger-beauty</module>
     </modules>
 
     <name>spring-boot-demo</name>
