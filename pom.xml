@@ -36,6 +36,7 @@
         <module>swagger</module>
         <module>swagger-beauty</module>
         <module>rbac-security</module>
+        <module>rbac-shiro</module>
     </modules>
 
     <name>spring-boot-demo</name>
