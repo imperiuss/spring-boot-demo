@@ -35,6 +35,7 @@
         <module>task-xxl-job</module>
         <module>swagger</module>
         <module>swagger-beauty</module>
+        <module>rbac-security</module>
     </modules>
 
     <name>spring-boot-demo</name>
