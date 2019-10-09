@@ -39,6 +39,7 @@
         <module>rbac-shiro</module>
         <module>session</module>
         <module>zookeeper</module>
+        <module>mq-rabbitmq</module>
     </modules>
 
     <name>spring-boot-demo</name>

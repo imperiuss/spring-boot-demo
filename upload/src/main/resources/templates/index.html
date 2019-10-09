@@ -36,7 +36,7 @@
                     </i-button>
                 </div>
                 <div>
-                    <div v-if="local.log.status != 0">状态: {{ local.log.message }}}</div>
+                    <div v-if="local.log.status != 0">状态: {{ local.log.messageStruct }}}</div>
                     <div v-if="local.log.status === 200">文件名: {{ local.log.fileName }}}</div>
                     <div v-if="local.log.status === 200">文件路径: {{ local.log.filePath }}}</div>
                 </div>
@@ -64,7 +64,7 @@
                     </i-button>
                 </div>
                 <div>
-                    <div v-if="yun.log.status != 0">状态: {{ yun.log.message }}}</div>
+                    <div v-if="yun.log.status != 0">状态: {{ yun.log.messageStruct }}}</div>
                     <div v-if="yun.log.status === 200">文件名: {{ yun.log.fileName }}}</div>
                     <div v-if="yun.log.status === 200">文件路径: {{ yun.log.filePath }}}</div>
                 </div>
@@ -82,7 +82,7 @@
                 loadingStatus: false,
                 log: {
                     status: 0,
-                    message: '',
+                    messageStruct: '',
                     fileName: '',
                     filePath: ''
                 }
@@ -92,7 +92,7 @@
                 loadingStatus: false,
                 log: {
                     status: 0,
-                    message: '',
+                    messageStruct: '',
                     fileName: '',
                     filePath: ''
                 }
@@ -111,14 +111,14 @@
                 this.local.file = null;
                 this.local.loadingStatus = false;
                 this.local.log.status = response.code;
-                this.local.log.message = response.message;
+                this.local.log.messageStruct = response.messageStruct;
                 if (response.code === 200) {
-                    this.$Message.success(response.message);
+                    this.$Message.success(response.messageStruct);
                     this.local.log.fileName = response.data.fileName;
                     this.local.log.filePath = response.data.filePath;
                     this.$refs.localUploadRef.clearFiles();
                 } else {
-                    this.$Message.error(response.message);
+                    this.$Message.error(response.messageStruct);
                 }
             },
             handleLocalError() {
@@ -138,14 +138,14 @@
                 this.yun.file = null;
                 this.yun.loadingStatus = false;
                 this.yun.log.status = response.code;
-                this.yun.log.message = response.message;
+                this.yun.log.messageStruct = response.messageStruct;
                 if (response.code === 200) {
-                    this.$Message.success(response.message);
+                    this.$Message.success(response.messageStruct);
                     this.yun.log.fileName = response.data.fileName;
                     this.yun.log.filePath = response.data.filePath;
                     this.$refs.yunUploadRef.clearFile();
                 } else {
-                    this.$Message.error(response.message);
+                    this.$Message.error(response.messageStruct);
                 }
             },
             handleYunError() {

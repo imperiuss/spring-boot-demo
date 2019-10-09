@@ -9,7 +9,7 @@
 --#
 --# From a helpful (but anonymous) Quartz user:
 --#
---# Regarding this error message:  
+--# Regarding this error messageStruct:
 --#
 --#     [Microsoft][SQLServer 2000 Driver for JDBC]Can't start a cloned connection while in manual transaction mode.
 --#
