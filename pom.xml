@@ -41,6 +41,7 @@
         <module>zookeeper</module>
         <module>mq-rabbitmq</module>
         <module>mq-kafka</module>
+        <module>websocket</module>
     </modules>
 
     <name>spring-boot-demo</name>
