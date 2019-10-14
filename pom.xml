@@ -42,6 +42,7 @@
         <module>mq-rabbitmq</module>
         <module>mq-kafka</module>
         <module>websocket</module>
+        <module>websocket-socketio</module>
     </modules>
 
     <name>spring-boot-demo</name>
