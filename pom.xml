@@ -43,6 +43,7 @@
         <module>mq-kafka</module>
         <module>websocket</module>
         <module>websocket-socketio</module>
+        <module>async</module>
     </modules>
 
     <name>spring-boot-demo</name>
