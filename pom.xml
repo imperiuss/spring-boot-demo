@@ -45,6 +45,7 @@
         <module>websocket-socketio</module>
         <module>async</module>
         <module>elasticsearch</module>
+        <module>dubbo</module>
     </modules>
 
     <name>spring-boot-demo</name>
