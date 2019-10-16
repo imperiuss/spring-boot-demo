@@ -46,6 +46,7 @@
         <module>async</module>
         <module>elasticsearch</module>
         <module>dubbo</module>
+        <module>mongodb</module>
     </modules>
 
     <name>spring-boot-demo</name>
