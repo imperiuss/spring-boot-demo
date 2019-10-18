@@ -48,6 +48,7 @@
         <module>dubbo</module>
         <module>mongodb</module>
         <module>neo4j</module>
+        <module>docker</module>
     </modules>
 
     <name>spring-boot-demo</name>
