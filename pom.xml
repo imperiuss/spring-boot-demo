@@ -47,6 +47,7 @@
         <module>elasticsearch</module>
         <module>dubbo</module>
         <module>mongodb</module>
+        <module>neo4j</module>
     </modules>
 
     <name>spring-boot-demo</name>
